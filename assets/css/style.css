@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+.jumbotron {
+    background-image: url(dinnermovie.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 130%;
+    margin-top: 20px;
+}
+
+/* Adding media queries to adjust the image so that it doesn't repeat at small screen sizes */
+@media screen and (max-width: 992px) {
+    .jumbotron {
+        background-size: 160%;
+    }
+}
+
+@media screen and (max-width: 772px) {
+    .jumbotron {
+        background-size: 230%;
+    }
+}
+
+@media screen and (max-width: 467px) {
+    .jumbotron {
+        background-size: 260%;
+    }
+}
+
+@media screen and (max-width: 418px) {
+    .jumbotron {
+        background-size: 300%;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .jumbotron {
+        background-size: 320%;
+    }
+}
+
+.col-lg-6 {
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 10px;
+    background-color: black;
+}
+
+#movieTitles, #nearbyRestaurants {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 5px;
+}
+
+.movieDIV, .restDIV {
+    display: flex;
+    margin-top: 10px;
+    background-color: ghostwhite;
+}
+
+h5 {
+    font-family: 'Patua One', cursive;
+}
+
+.movieTitle:hover {
+    color: red;
+    cursor: pointer;
+}
+
+h6 {
+    font-family: 'Lato', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+a:link {
+    text-decoration: none;
+    color: white;
+}
