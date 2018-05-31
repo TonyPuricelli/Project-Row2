@@ -11,12 +11,12 @@ module.exports = function(app) {
 
   
     app.get("/dinner", function(req, res) {
-      res.sendFile(path.join(__dirname, "../public/index_restaurant.html"));
+      res.sendFile(path.join(__dirname, "../public/index_restauraunt.html"));
     });
   
     // blog route loads blog.html
-    // app.get("/plan", function(req, res) {
-    //   res.sendFile(path.join(__dirname, "../public/index.html"));
-    // });
+    app.get("/plan", function(req, res) {
+      res.sendFile(path.join(__dirname, "../public/index.html"));
+    });
   
   };

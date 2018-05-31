@@ -123,7 +123,7 @@ function submitUserInfo() {
                     // Create a DIV to hold each of our movie titles and its description
                     var movieDisplayDiv = $("<div>").addClass("movieDIV").addClass("card").attr("style", "width: 16rem");
 
-                    var cardIMG = $("<img>").addClass("card-img-top").attr("src", "../images/popcorn.jpg");
+                    var cardIMG = $("<img>").addClass("card-img-top").attr("src", "/../images/popcorn.jpg");
 
                     // Create a variable to hold each movie title
                     var movieTitle = [];
